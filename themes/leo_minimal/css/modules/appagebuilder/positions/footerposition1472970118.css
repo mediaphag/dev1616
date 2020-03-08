@@ -1,0 +1,81 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (min-width: 480px) {
+  #footer ul.list-group li {
+    float: left;
+    width: 50%;
+  }
+  .rtl #footer ul.list-group li {
+    float: right;
+  }
+}
+#footer .logo {
+  margin-bottom: 35px;
+}
+@media (max-width: 767px) {
+  #footer .logo {
+    margin-bottom: 25px;
+  }
+}
+#footer #social_block .block-2 {
+  display: none;
+}
+#footer #social_block ul li a:before {
+  color: #222222;
+}
+#footer #social_block ul li a:hover:before, #footer #social_block ul li a:active:before, #footer #social_block ul li a:focus:before {
+  color: #79c753;
+}
+
+.box-top-footer {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+@media (max-width: 991px) {
+  .box-top-footer {
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .box-top-footer > div:first-child {
+    padding: 0 15px 0 0;
+  }
+  .rtl .box-top-footer > div:first-child {
+    padding: 0 0 0 15px;
+  }
+  .box-top-footer > div:last-child {
+    padding: 0 0 0 15px;
+  }
+  .rtl .box-top-footer > div:last-child {
+    padding: 0 15px 0 0;
+  }
+}
+
+.box-bottom-footer {
+  height: 70px;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+}

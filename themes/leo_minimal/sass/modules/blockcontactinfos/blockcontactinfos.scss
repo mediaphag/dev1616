@@ -1,0 +1,22 @@
+@import "compass";
+@import "theme_variables";
+
+#footer #block_contact_infos{
+	ul{
+		@media (min-width: 768px) {
+			@include rtl-padding-left(20px);
+		}
+		li{
+			margin-bottom: 25px;
+			font-size: 15px;
+			@include rtl-padding-left(30px);
+			position: relative;
+			i{
+				font-size: 16px;
+				position: absolute;
+				@include rtl-left(0);
+				top: 3px;
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (min-width: 992px) {
+  .header_user_info {
+    padding: 0;
+  }
+}
+.header_user_info .popup-title {
+  display: none;
+}
+@media (max-width: 991px) {
+  .header_user_info .popup-title a > .fa {
+    display: inline-block;
+  }
+}
+@media (max-width: 479px) {
+  .header_user_info .popup-title span {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .header_user_info .links {
+    width: 150px;
+    right: 0;
+    left: auto;
+    padding: 10px 15px;
+    display: none;
+  }
+  .rtl .header_user_info .links {
+    right: auto;
+    left: 0;
+  }
+}
+@media (min-width: 992px) {
+  .header_user_info .links li {
+    margin: 0px 15px 0px 15px;
+    position: relative;
+  }
+  .rtl .header_user_info .links li {
+    margin: 0px 15px 0px 15px;
+  }
+  .header_user_info .links li:after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: #999999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    top: 5px;
+    right: -15px;
+  }
+  .rtl .header_user_info .links li:after {
+    left: -15px;
+    right: auto;
+  }
+  .header_user_info .links li:last-child {
+    margin: 0px 0px 0px 15px;
+  }
+  .rtl .header_user_info .links li:last-child {
+    margin: 0px 15px 0px 0px;
+  }
+  .header_user_info .links li:last-child:after {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .header_user_info .links li {
+    display: block;
+    padding: 3px 0;
+  }
+  .header_user_info .links li .ap-btn-wishlist {
+    padding: 0;
+  }
+}
+.header_user_info .links li a {
+  color: #666666;
+}
+@media (max-width: 991px) {
+  .header_user_info .links li a {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+  }
+}
+.header_user_info .links span {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+}
+@media (min-width: 1200px) {
+  .header_user_info .links .fa {
+    display: none;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .header_user_info .links .fa {
+    display: none;
+  }
+}

@@ -1,0 +1,104 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.filter-block {
+  background: url(../../../../../img/bg-filter-reverse.png) top left;
+}
+@media (min-width: 992px) {
+  .filter-block {
+    padding: 60px 40px 50px 40px;
+    margin-right: 20px;
+    -webkit-box-shadow: 20px 20px 0px 0px #f3f3f3;
+    box-shadow: 20px 20px 0px 0px #f3f3f3;
+  }
+}
+@media (max-width: 991px) {
+  .filter-block {
+    padding: 50px 30px 40px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .filter-block {
+    padding: 40px 20px 30px 20px;
+    text-align: center;
+  }
+}
+.filter-block table {
+  width: 100%;
+}
+.filter-block table tr td {
+  padding: 10px 0px;
+}
+.filter-block table tr td:first-child {
+  display: none;
+}
+.filter-block .box-select {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+}
+.filter-block .box-select:after {
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.filter-block .box-select select {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.filter-block .box-select select:disabled {
+  cursor: no-drop;
+}
+.filter-block .box-select select:active, .filter-block .box-select select:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
+.filter-block .box-select select option {
+  color: #000011;
+}
+.filter-block .btn-filter {
+  display: block;
+  text-align: center;
+  color: white;
+  background: #111111;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "gotham_mediumregular";
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 20px;
+  white-space: pre-line;
+  padding: 14px 25px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+@media (max-width: 479px) {
+  .filter-block .btn-filter {
+    letter-spacing: 2px;
+  }
+}
+.filter-block .btn-filter:hover {
+  background: #e73a2c;
+}

@@ -1,0 +1,55 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Home 6 ***************
+
+#index{
+	#columns{
+		padding-bottom: 80px;
+		@media(max-width: 991px){
+			padding-bottom: 50px;
+		}
+		@media(max-width: 479px){
+			padding-bottom: 30px;
+		}
+	}
+} 
+
+.box-banner-image{
+	margin-top: 80px;
+	@media(max-width: 991px){
+		margin-top: 50px;
+	}
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+	.group-two-banner{
+		.banner-text{
+			margin-bottom: 55px;
+			@media(max-width: 1199px) and (min-width: 992px){
+				margin-bottom: 63px;
+			}
+			@media(max-width: 991px){
+				margin-bottom: 30px;
+			}
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.group-big-banner{
+		@media(max-width: 991px){
+			margin: 30px 0;
+		}
+	}
+}
+
+.box-blogs{
+	margin-top: 80px;
+	@media(max-width: 991px){
+		margin-top: 50px;
+	}
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+}

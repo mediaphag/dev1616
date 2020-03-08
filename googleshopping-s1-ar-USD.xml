@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+
+<channel>
+<title><![CDATA[leo_minimal]]></title>
+<description><![CDATA[Shop powered by PrestaShop]]></description>
+<link href="http://dev1616.freedomain.thehost.com.ua/" rel="alternate" type="text/html"/>
+<image>
+<url>http://dev1616.freedomain.thehost.com.ua/img/leominimal-logo-1469411937.jpg</url>
+<link>http://dev1616.freedomain.thehost.com.ua/</link>
+</image>
+<modified>2019-03-01 T01:01:01Z</modified>
+<author>
+<name>leo_minimal</name>
+</author>
+
+<item>
+<g:id>1</g:id>
+<title><![CDATA[Faded Short Sleeves T-shirt]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/1-faded-short-sleeves-tshirt.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/24-large_default/faded-short-sleeves-tshirt.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/25-large_default/faded-short-sleeves-tshirt.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/63-large_default/faded-short-sleeves-tshirt.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/60-large_default/faded-short-sleeves-tshirt.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/61-large_default/faded-short-sleeves-tshirt.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/62-large_default/faded-short-sleeves-tshirt.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>1799</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>16.51 USD</g:price>
+<g:brand><![CDATA[manufacturers-1]]></g:brand>
+<g:mpn><![CDATA[demo_1]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>2</g:id>
+<title><![CDATA[Blouse]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/2-blouse.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/26-large_default/blouse.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/27-large_default/blouse.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>1799</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>27 USD</g:price>
+<g:brand><![CDATA[manufacturers-2]]></g:brand>
+<g:mpn><![CDATA[demo_2]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>3</g:id>
+<title><![CDATA[Printed Dress]]></title>
+<description><![CDATA[100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/3-printed-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/28-large_default/printed-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/29-large_default/printed-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>899</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>26 USD</g:price>
+<g:brand><![CDATA[manufacturers-3]]></g:brand>
+<g:mpn><![CDATA[demo_3]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>4</g:id>
+<title><![CDATA[Printed Dress]]></title>
+<description><![CDATA[Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/4-printed-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/30-large_default/printed-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/31-large_default/printed-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>899</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>50.99 USD</g:price>
+<g:brand><![CDATA[manufacturers-4]]></g:brand>
+<g:mpn><![CDATA[demo_4]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>5</g:id>
+<title><![CDATA[Printed Summer Dress]]></title>
+<description><![CDATA[Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/5-printed-summer-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/32-large_default/printed-summer-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/33-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>3600</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>30.51 USD</g:price>
+<g:sale_price>28.98 USD</g:sale_price>
+<g:brand><![CDATA[manufacturers-5]]></g:brand>
+<g:mpn><![CDATA[demo_5]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>6</g:id>
+<title><![CDATA[Printed Summer Dress]]></title>
+<description><![CDATA[Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/6-printed-summer-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/34-large_default/printed-summer-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/35-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/36-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/37-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/38-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/39-large_default/printed-summer-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>900</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>30.5 USD</g:price>
+<g:brand><![CDATA[manufacturers-6]]></g:brand>
+<g:mpn><![CDATA[demo_6]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>7</g:id>
+<title><![CDATA[Printed Chiffon Dress]]></title>
+<description><![CDATA[Printed chiffon knee length dress with tank straps. Deep v-neckline.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/7-printed-chiffon-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/40-large_default/printed-chiffon-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/41-large_default/printed-chiffon-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>1800</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>20.5 USD</g:price>
+<g:sale_price>16.4 USD</g:sale_price>
+<g:brand><![CDATA[manufacturers-7]]></g:brand>
+<g:mpn><![CDATA[demo_7]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>9</g:id>
+<title><![CDATA[Oversized Shirt Dress]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/9-oversized-shirt-dress.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/44-large_default/oversized-shirt-dress.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/45-large_default/oversized-shirt-dress.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>400</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>74 USD</g:price>
+<g:brand><![CDATA[manufacturers-1]]></g:brand>
+<g:mpn><![CDATA[demo_9]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>10</g:id>
+<title><![CDATA[Striped Dress With Silk Skirt]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/10-striped-dress-with-silk-skirt.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/46-large_default/striped-dress-with-silk-skirt.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/47-large_default/striped-dress-with-silk-skirt.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>300</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>30.03 USD</g:price>
+<g:brand><![CDATA[manufacturers-1]]></g:brand>
+<g:mpn><![CDATA[demo_10]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>11</g:id>
+<title><![CDATA[A-line Jumper]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/11-a-line-jumper.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/48-large_default/a-line-jumper.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/49-large_default/a-line-jumper.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>200</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>82 USD</g:price>
+<g:brand><![CDATA[manufacturers-2]]></g:brand>
+<g:mpn><![CDATA[demo_11]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>12</g:id>
+<title><![CDATA[Dress With Silk Cuffs]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/12-dress-with-silk-cuffs.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/50-large_default/dress-with-silk-cuffs.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/51-large_default/dress-with-silk-cuffs.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>300</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>69.04 USD</g:price>
+<g:brand><![CDATA[manufacturers-1]]></g:brand>
+<g:mpn><![CDATA[demo-12]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>13</g:id>
+<title><![CDATA[Drawstring Jumpsuit]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/13-drawstring-jumpsuit.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/52-large_default/drawstring-jumpsuit.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/53-large_default/drawstring-jumpsuit.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>1100</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>100 USD</g:price>
+<g:brand><![CDATA[manufacturers-1]]></g:brand>
+<g:mpn><![CDATA[demo_13]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>14</g:id>
+<title><![CDATA[Lightweight Mac]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/home/14-lightweight-mac-89.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/54-large_default/lightweight-mac-89.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/55-large_default/lightweight-mac-89.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>400</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>26.08 USD</g:price>
+<g:brand><![CDATA[manufacturers-3]]></g:brand>
+<g:mpn><![CDATA[demo_14]]></g:mpn>
+<g:featured_product>true</g:featured_product>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>15</g:id>
+<title><![CDATA[Knitted Cotton T-shirt]]></title>
+<description><![CDATA[Detracto deterruisset pro an. Graeco interesset nam te, vim et oporteat recusabo. Ex eam fastidii percipitur, verear consequat voluptatum ex per, vel saepe nemore appareat ut.]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/men/15-knitted-cotton-t-shirt.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/56-large_default/knitted-cotton-t-shirt.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/57-large_default/knitted-cotton-t-shirt.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[الرجال]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>300</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>112 USD</g:price>
+<g:brand><![CDATA[manufacturers-6]]></g:brand>
+<g:mpn><![CDATA[demo_15]]></g:mpn>
+<g:featured_product>true</g:featured_product>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+<item>
+<g:id>17</g:id>
+<title><![CDATA[Футболка из хлопка Babette]]></title>
+<description><![CDATA[]]></description>
+<link><![CDATA[http://dev1616.freedomain.thehost.com.ua/ar/-/17-futbolka-iz-khlopka-babette.html]]></link>
+<g:image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/64-large_default/futbolka-iz-khlopka-babette.jpg]]></g:image_link>
+<g:additional_image_link><![CDATA[http://dev1616.freedomain.thehost.com.ua/65-large_default/futbolka-iz-khlopka-babette.jpg]]></g:additional_image_link>
+<g:condition><![CDATA[new]]></g:condition>
+<g:product_type><![CDATA[النساء > قمم > تي شيرت]]></g:product_type>
+<g:google_product_category><![CDATA[Google Category Example > Google Sub-Category Example]]></g:google_product_category>
+<g:quantity>5</g:quantity>
+<g:availability>in stock</g:availability>
+<g:price>399 USD</g:price>
+<g:brand><![CDATA[Eldar]]></g:brand>
+<g:mpn><![CDATA[9824dsd]]></g:mpn>
+<g:shipping>
+	<g:country>UK</g:country>
+	<g:service>Standard</g:service>
+	<g:price>5 USD</g:price>
+</g:shipping>
+</item>
+
+</channel>
+</rss>

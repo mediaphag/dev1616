@@ -1,0 +1,107 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#topbar {
+  background: #f4f4f4;
+}
+
+.box-top-header {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+.box-top-header > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+.box-top-header .left-top-header {
+  -webkit-justify-content: flex-start;
+  /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+.box-top-header .right-top-header {
+  -webkit-justify-content: flex-end;
+  /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  .box-bottom-header {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  .box-bottom-header {
+    margin-bottom: 10px;
+  }
+}
+.box-bottom-header > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+.box-bottom-header .left-bottom-header {
+  -webkit-justify-content: flex-start;
+  /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+.box-bottom-header .left-bottom-header .logo {
+  padding: 30px 0;
+}
+@media (max-width: 991px) {
+  .box-bottom-header .left-bottom-header {
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+}
+.box-bottom-header .center-bottom-header {
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .box-bottom-header .center-bottom-header {
+    height: 40px;
+    -webkit-justify-content: flex-start;
+    /* Safari 6.1+ */
+    justify-content: flex-start;
+  }
+}
+.box-bottom-header .right-bottom-header {
+  -webkit-justify-content: flex-end;
+  /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+@media (max-width: 991px) {
+  .box-bottom-header .right-bottom-header {
+    height: 40px;
+  }
+}

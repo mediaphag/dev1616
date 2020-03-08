@@ -1,0 +1,111 @@
+@import "compass";
+@import "theme_variables";
+
+ 
+.ac_results {
+	background: $light-background;
+	border: $main-border;
+	width: 271px;
+	margin-top: -1px;
+	li {
+		padding: 0 10px;
+		font-weight: normal;
+		color: #686666;
+		font-size: 13px;
+		line-height: 22px;
+		&.ac_odd {
+			background: $light-background;
+		}
+		&:hover, &.ac_over { 
+		}
+	}
+}
+.btn-search{
+	@include rtl-padding(0px,10px,0px,10px);
+	position: relative;
+	line-height: 18px;
+	&:hover{ 
+		cursor: pointer;
+		color: $theme-color-default;
+	}
+	em{
+		display: none;
+	}
+	#click_show_search{
+		font-size: 18px;
+		color: $theme-color-secondary;
+	}
+} 
+#search_block_top{
+    position: absolute;
+    @include rtl-right(-42px);
+    top: 35px;
+    overflow: visible;
+    border-width: 5px;
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    visibility: hidden;
+    @include opacity(0);
+    z-index: -1;
+	width: 300px;
+	@include transition(all 0.4s ease);
+	@media (max-width: 479px){
+		width: 250px;
+		@include rtl-right(-110px);
+	}
+	@media (min-width: 480px){
+		&:before{
+			content: "";
+			display: block;
+			position: absolute;
+			@include rtl-right(50px);
+			top: -24px;
+			width: 20px;
+			height: 20px;
+			border: 10px solid transparent;
+			border-bottom-color: rgb(236, 236, 236);
+			@include transition(all 0.4s ease);
+		}
+	}
+	&:hover,&:active,&:focus{
+		border-color: $theme-color-default;
+		&:before{
+			border-bottom-color: $theme-color-default;
+		}
+	}
+	&.showsearch{
+		z-index: 9999;
+		visibility: visible;
+		@include opacity(1);
+	}
+	.search_query{
+    	height: 35px;
+    	width: 100%;
+    	@include border-radius(0px);
+    	border: none;
+    	@include rtl-padding(6px,40px,6px,12px); 
+    	@include box-shadow(none);
+    	&:hover,&:active,&:focus{
+    		outline: 0;
+    		border: none;
+    		@include box-shadow(none);
+    	}
+	}
+	.search-button{
+		width: 40px;
+	    height: 35px;
+	    color: #777;
+	    background-color: transparent;
+	    font-size: 14px;
+	    position: absolute;
+	    @include rtl-right(0);
+	    top: 0;
+	    border: none;
+	    &:hover,&:active,&:focus{
+	    	@include box-shadow(none);
+	    	@include border-radius(0px);
+	    	border: none;
+	    	outline: 0;
+	    }
+	}
+}

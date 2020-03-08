@@ -1,0 +1,13 @@
+// footer.scss
+@import "vars/footer.vars";
+
+.copyright{
+	font-size: 15px;
+	color: $theme-color-secondary;
+	span{
+		font-size: 12px;
+		color: $theme-color-tertiary;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}

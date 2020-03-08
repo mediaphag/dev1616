@@ -1,0 +1,21 @@
+@import "compass";
+@import "theme_variables";
+
+ #best-sellers_block_right{
+    .lnk{
+        margin-top: 10px;
+        .btn{
+            padding: 8px 35px;
+            border-color: $theme-color-tertiary;
+            color: $theme-color-tertiary;
+            @include border-radius(0);
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:hover,&:focus,&:active{
+                color: $white;
+                border-color: $link-hover-color;
+            }
+        } 
+    } 
+ }   

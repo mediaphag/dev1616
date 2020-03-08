@@ -1,0 +1,100 @@
+@import "vars/block.vars";
+
+// block.scss
+
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} {
+        margin-bottom: $block-margin-bottom; 
+        @media (max-width: 991px) {
+            margin-bottom: 20px;
+        }  
+        .#{$block-heading-selector}{
+            color: $block-heading-color;
+            a{
+                color: $block-heading-color;
+            }
+            position: relative;                                                           
+            text-transform: $block-heading-transform;
+            font-family: $block-heading-font-family;    
+            padding: $block-heading-padding;         
+            font-size: $block-heading-font-size;
+            letter-spacing: $block-heading-letter-spacing;   
+            font-weight: bold;
+            background:$block-heading-bg;  
+            @include rounded-corners ($block-heading-radius);
+            border: $block-heading-border; 
+            margin: 0; 
+            border-bottom: 1px solid #f1f1f1;
+            @media (max-width: 991px) {
+                padding: 0 0 15px 0;
+            }
+        }
+        .#{$block-content-selector} {        
+            @include rounded-corners ($block-content-radius);
+            padding: $block-content-padding;
+            @include clearfix();
+            @media (max-width: 991px) {
+               padding: 15px 0 0 0; 
+            }
+            .product-block{
+                margin-bottom: 20px;
+                .products-block-image{
+                    width: 90px;
+                    @include rtl-margin-right(0px);
+                }
+                .name{
+                    @include rtl-margin(5px,0,15px,0);
+                }  
+                .media-body{
+                    padding: 0 10px;
+                }
+            }
+            .products {
+                @include clearfix();
+                & > .media{
+                    margin-top: 0;
+                    @media (max-width: 991px) and (min-width: 768px) {
+                        width: 50%;
+                        @include rtl-float-left();
+                    }
+                }
+
+            } 
+            .list-group{
+                margin-bottom: 0
+            }  
+            .lnk_wishlist .fa{
+                display: none;
+            }       
+        }
+    }
+
+    // block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+    // Contextual variations
+    // .#{$block-prefix}-default {
+    //   @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    // }
+    // .#{$block-prefix}-primary {
+    //   @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    // }
+    // .#{$block-prefix}-success {
+    //   @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    // }
+    // .#{$block-prefix}-info {
+    //   @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    // }
+    // .#{$block-prefix}-warning {
+    //   @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    // }
+    // .#{$block-prefix}-danger {
+    //   @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    // }
+    // .#{$block-prefix}-highlighted {
+    //     @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-bg, $block-highlighted-border);
+    // }
+}
+
+// block in header
+// block in footer
+// block in main

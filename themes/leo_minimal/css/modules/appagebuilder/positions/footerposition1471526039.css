@@ -1,0 +1,115 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#footer {
+  background: #222222;
+  border-top: 1px solid #2a2a2a;
+}
+@media (min-width: 992px) {
+  #footer [class*="col-"] {
+    text-align: center;
+  }
+}
+#footer ul.list-group {
+  padding: 0 0 0 0;
+}
+.rtl #footer ul.list-group {
+  padding: 0 0 0 0;
+}
+@media (min-width: 992px) {
+  #footer ul.list-group {
+    padding: 50px 0 50px 0;
+  }
+  .rtl #footer ul.list-group {
+    padding: 50px 0 50px 0;
+  }
+}
+#footer ul.list-group li a {
+  font-weight: 600;
+}
+#footer .title_block {
+  color: white;
+}
+@media (min-width: 992px) {
+  #footer .title_block {
+    margin-top: 90px;
+    margin-bottom: 0;
+  }
+}
+#footer .title_block a {
+  color: white;
+}
+#footer .title_block a:hover {
+  color: #79c753;
+}
+
+@media (min-width: 992px) {
+  .box-top-footer {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+  }
+}
+@media (max-width: 991px) {
+  .box-top-footer {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .box-top-footer > [class*="col-"] {
+    border-left: 1px solid #2a2a2a;
+  }
+  .rtl .box-top-footer > [class*="col-"] {
+    border-right: 1px solid #2a2a2a;
+    border-left: inherit;
+  }
+}
+.box-top-footer > [class*="col-"]:last-child {
+  border-right: 1px solid #2a2a2a;
+}
+.rtl .box-top-footer > [class*="col-"]:last-child {
+  border-left: 1px solid #2a2a2a;
+  border-right: inherit;
+}
+
+.box-bottom-footer {
+  height: 70px;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+  position: relative;
+}
+.box-bottom-footer:before {
+  content: '';
+  margin: 0 -1000px;
+  height: 1px;
+  display: block !important;
+  background: #2a2a2a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.copyright span {
+  color: #aaaaaa;
+  font-weight: bold;
+}

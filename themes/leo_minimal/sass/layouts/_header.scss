@@ -1,0 +1,55 @@
+// header.scss
+@import "vars/header.vars";
+
+.logo{
+	display: inline-block;
+}
+
+// classic
+.header-classic{	
+	#header_logo{
+		float: left;
+	}
+	#leo-megamenu{
+		float: left;
+	}
+}
+// fixed
+.header-fixed{	
+	#header_logo{}
+	#leo-megamenu{}
+} 
+// left
+.header-left{	
+	#header_logo{
+		text-align: left;
+	}
+	#leo-megamenu{}
+}
+// right
+.header-right{	
+	#header_logo{
+		text-align: right;
+	}
+	#leo-megamenu{}
+}
+// center
+.header-center{	
+	#header_logo{
+		text-align: center;
+	}
+	#leo-megamenu{}
+}
+
+//btn-wishlist
+.ap-btn-wishlist{
+	@include rtl-padding(0,10px,0,10px);
+	color: $theme-color-secondary;
+	.icon-heart2{
+		font-size: 18px;
+	}
+}
+
+#header-main{
+	background: $white;
+}

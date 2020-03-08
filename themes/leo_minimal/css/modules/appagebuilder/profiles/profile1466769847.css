@@ -1,0 +1,66 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************
+					Home 1
+********************************************************************/
+#index #columns {
+  padding: 110px 0;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .group-filter-reverse {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .group-filter-reverse {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .box-two-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+.box-process {
+  margin-top: 140px;
+}
+@media (max-width: 479px) {
+  .box-process {
+    margin-top: 40px;
+  }
+}
+
+.box-form-contact {
+  margin-top: 60px;
+}
+@media (max-width: 479px) {
+  .box-form-contact {
+    margin-top: 0px;
+  }
+}

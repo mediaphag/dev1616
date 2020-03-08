@@ -1,0 +1,44 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#leo_block_top #first-languages li {
+  margin: 0px;
+  padding: 2px 4px;
+  text-align: center;
+  display: inline-block;
+}
+#leo_block_top #first-languages li img {
+  border: 1px solid transparent;
+  padding: 1px;
+  width: 20px;
+  height: 15px;
+}
+#leo_block_top #first-languages li.selected_language img {
+  border-color: #e73a2c;
+}
+#leo_block_top #first-languages li a {
+  margin: 0px;
+}
+#leo_block_top p {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+#leo_block_top #setCurrency {
+  margin-top: 10px;
+}
+#leo_block_top #setCurrency li.selected a {
+  color: #e73a2c;
+}

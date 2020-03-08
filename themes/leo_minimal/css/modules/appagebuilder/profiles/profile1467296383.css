@@ -1,0 +1,136 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************
+					Home 2 
+********************************************************************/
+#index #columns {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding: 30px 0;
+  }
+}
+
+.box-cate-img {
+  margin-bottom: 70px;
+}
+@media (min-width: 992px) {
+  .box-cate-img {
+    margin-top: -70px;
+  }
+}
+@media (max-width: 479px) {
+  .box-cate-img {
+    margin-bottom: 30px;
+  }
+}
+
+.box-about-image {
+  padding: 120px 0;
+}
+@media (max-width: 991px) {
+  .box-about-image {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 479px) {
+  .box-about-image {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .process {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 479px) {
+  .process {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .process .descript {
+    margin-bottom: 0px;
+  }
+  .process .owl-pagination, .process .carousel-pagination {
+    position: absolute;
+    top: -35px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .process .owl-page:before, .process .carousel-page:before {
+    display: none;
+  }
+  .process .block-carousel-container {
+    margin-top: 120px;
+  }
+  .process .carousel-buttons, .process .owl-buttons {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 80px;
+    width: 100%;
+    z-index: 999;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .process .owl-pagination, .process .carousel-pagination {
+    top: -25px;
+  }
+}
+
+.box-testimonials {
+  margin-top: 60px;
+}
+@media (max-width: 479px) {
+  .box-testimonials {
+    margin-top: 10px;
+  }
+}
+
+.box-service {
+  margin-top: 70px;
+}
+@media (max-width: 479px) {
+  .box-service {
+    margin-top: 40px;
+  }
+  .box-service .ApColumn:last-child .service {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .box-manufacturer {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (min-width: 768px) {
+  #footer #social_block .title_block {
+    display: none;
+  }
+}
+#footer #social_block .desc-block {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+  #footer #social_block .desc-block {
+    margin-bottom: 20px;
+  }
+}
+#footer #social_block ul li a:before {
+  background: transparent;
+}

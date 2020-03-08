@@ -1,0 +1,77 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#index #columns {
+  padding-bottom: 80px;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding-bottom: 30px;
+  }
+}
+
+.box-banner-image {
+  margin-top: 80px;
+}
+@media (max-width: 991px) {
+  .box-banner-image {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 479px) {
+  .box-banner-image {
+    margin-top: 30px;
+  }
+}
+.box-banner-image .group-two-banner .banner-text {
+  margin-bottom: 55px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .box-banner-image .group-two-banner .banner-text {
+    margin-bottom: 63px;
+  }
+}
+@media (max-width: 991px) {
+  .box-banner-image .group-two-banner .banner-text {
+    margin-bottom: 30px;
+  }
+}
+.box-banner-image .group-two-banner .banner-text:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .box-banner-image .group-big-banner {
+    margin: 30px 0;
+  }
+}
+
+.box-blogs {
+  margin-top: 80px;
+}
+@media (max-width: 991px) {
+  .box-blogs {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 479px) {
+  .box-blogs {
+    margin-top: 30px;
+  }
+}

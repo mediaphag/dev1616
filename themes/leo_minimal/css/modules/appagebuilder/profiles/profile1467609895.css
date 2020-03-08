@@ -1,0 +1,139 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************
+					Home 4 
+********************************************************************/
+#index #columns {
+  padding-top: 0;
+  padding-bottom: 110px;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .group-filter-reverse-row {
+    margin-top: -60px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .group-filter-reverse-row {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 767px) {
+  .group-filter-reverse-row {
+    margin-top: 30px;
+  }
+}
+
+.layout-boxed-md .group-filter-reverse-row {
+  margin-top: -40px;
+}
+
+.box-cate-img {
+  margin-top: 90px;
+}
+@media (max-width: 991px) {
+  .box-cate-img {
+    margin-top: 40px;
+  }
+}
+
+.widget-category_image .cate_content .btn-cate {
+  color: black;
+  background: transparent;
+  border: 2px solid #eaeaea;
+}
+.widget-category_image .cate_content .btn-cate:hover {
+  border-color: #e73a2c;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .box-tire {
+    margin-top: 50px;
+  }
+}
+
+.box-product-tabs {
+  margin-top: 90px;
+}
+@media (max-width: 991px) {
+  .box-product-tabs {
+    margin-top: 50px;
+  }
+}
+
+.box-two-banner {
+  margin-top: 40px;
+}
+@media (max-width: 479px) {
+  .box-two-banner {
+    margin-top: 0;
+  }
+  .box-two-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-testimonials-image {
+    margin-top: 90px;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+  }
+}
+@media (max-width: 991px) {
+  .box-testimonials-image {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .box-testimonials-image .group-banner {
+    padding: 0 0 0 0;
+  }
+  .rtl .box-testimonials-image .group-banner {
+    padding: 0 0 0 0;
+  }
+}
+@media (min-width: 992px) {
+  .box-testimonials-image .testimonials-tire {
+    padding: 0 0 0 0;
+  }
+  .rtl .box-testimonials-image .testimonials-tire {
+    padding: 0 0 0 0;
+  }
+}
+
+.box-form-contact {
+  margin-top: 60px;
+}
+@media (max-width: 479px) {
+  .box-form-contact {
+    margin-top: 10px;
+  }
+}

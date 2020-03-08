@@ -1,0 +1,125 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#index #columns {
+  padding-top: 50px;
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-banner-image .content-text .title_block {
+    font-size: 48px;
+  }
+}
+.box-banner-image .content-text .image_description {
+  padding-left: 100px;
+}
+.rtl .box-banner-image .content-text .image_description {
+  padding-right: 100px;
+  padding-left: inherit;
+}
+@media (max-width: 991px) {
+  .box-banner-image .content-text .image_description {
+    padding-left: 30px;
+  }
+  .rtl .box-banner-image .content-text .image_description {
+    padding-right: 30px;
+    padding-left: inherit;
+  }
+}
+@media (max-width: 479px) {
+  .box-banner-image .content-text .image_description {
+    padding-left: 0px;
+  }
+  .rtl .box-banner-image .content-text .image_description {
+    padding-right: 0px;
+    padding-left: inherit;
+  }
+}
+
+@media (min-width: 480px) {
+  .box-product-image {
+    margin-top: 90px;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+  .box-product-image .product-block {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 991px) {
+  .box-product-image {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 479px) {
+  .box-product-image {
+    margin-top: 30px;
+  }
+}
+
+.box-border-banner {
+  margin-top: 90px;
+}
+@media (max-width: 991px) {
+  .box-border-banner {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 479px) {
+  .box-border-banner {
+    margin-top: 30px;
+  }
+}
+
+.box-service {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+@media (max-width: 991px) {
+  .box-service {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 479px) {
+  .box-service {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-manufacturer {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .group-blogs {
+    margin-bottom: 30px;
+  }
+}

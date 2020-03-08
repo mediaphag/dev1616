@@ -1,0 +1,8 @@
+a:1:{s:256:"IFNULL(
+			(
+				SELECT right_column
+				FROM 16_theme t
+				LEFT JOIN 16_theme_meta tm ON ( t.id_theme = tm.id_theme )
+				LEFT JOIN 16_meta m ON ( m.id_meta = tm.id_meta )
+				WHERE t.id_theme =1
+				AND m.page = "module-leoblog-list" ) , default_right_c";s:1:"0";}

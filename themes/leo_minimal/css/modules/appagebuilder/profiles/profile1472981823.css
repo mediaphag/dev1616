@@ -1,0 +1,118 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#index #columns {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-slideshow {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  .box-slideshow .group-banner {
+    margin-top: 30px;
+  }
+}
+.box-slideshow .group-slideshow .iview-controlNav div.iview-items {
+  width: auto;
+  right: 10px;
+}
+.rtl .box-slideshow .group-slideshow .iview-controlNav div.iview-items {
+  left: 10px;
+  right: auto;
+}
+
+.box-banner-video {
+  position: relative;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .box-banner-video {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .box-banner-video {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .box-banner-video .group-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .rtl .box-banner-video .group-video {
+    left: 0;
+    right: auto;
+  }
+}
+
+.box-border-banner {
+  margin-top: 40px;
+}
+@media (max-width: 479px) {
+  .box-border-banner {
+    margin-top: 30px;
+  }
+}
+
+.box-product-list {
+  margin: 50px 0 0 0;
+}
+.rtl .box-product-list {
+  margin: 50px 0 0 0;
+}
+@media (max-width: 479px) {
+  .box-product-list {
+    margin: 30px 0 0 0;
+  }
+  .rtl .box-product-list {
+    margin: 30px 0 0 0;
+  }
+}
+
+.box-blogs {
+  margin-top: 60px;
+}
+@media (max-width: 991px) {
+  .box-blogs {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .box-blogs {
+    margin-top: 30px;
+  }
+}

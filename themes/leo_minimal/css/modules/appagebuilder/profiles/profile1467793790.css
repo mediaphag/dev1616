@@ -1,0 +1,94 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************
+					Home 5
+********************************************************************/
+#index #columns {
+  padding: 80px 0;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .box-product-tabs .product-block {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .box-product-carousel .product-block {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .box-two-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  .ApColumn .banner-left {
+    text-align: left;
+  }
+  .rtl .ApColumn .banner-left {
+    text-align: right;
+  }
+}
+@media (max-width: 479px) {
+  .ApColumn .banner-left {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 480px) {
+  .ApColumn .banner-right {
+    text-align: right;
+  }
+  .rtl .ApColumn .banner-right {
+    text-align: left;
+  }
+}
+@media (max-width: 479px) {
+  .ApColumn .banner-right {
+    margin-bottom: 20px;
+  }
+}
+
+.box-service {
+  margin-top: 60px;
+}
+@media (max-width: 991px) {
+  .box-service {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .box-service .ApColumn:last-child .service {
+    margin-bottom: 0;
+  }
+}
+
+.box-form-contact {
+  margin-top: 60px;
+}
+@media (max-width: 479px) {
+  .box-form-contact {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,145 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Home 2 ***************
+
+#index #columns{
+	padding-top: 60px;
+	padding-bottom: 100px;
+	@media (max-width: 991px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	@media (max-width: 479px) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+.box-banner-text-fullwidth{
+	.banner-text{
+		@media(max-width: 991px){
+			text-align: center;
+		}
+		& > a{
+			display: inline-block;
+			z-index: 9;
+    		position: relative;
+		}
+		.box-content-img{
+			.content-text{
+				@media(min-width: 1200px){
+					width: 45%;
+					.image_description {
+					    @include rtl-padding-left(100px);
+					}
+				}
+				@media (max-width: 1199px) and (min-width: 992px) {
+					width: 40%;
+					.image_description {
+					    @include rtl-padding-left(50px);
+					}
+				}
+				@media(max-width: 991px){
+					text-align: center;
+				}
+			}
+			@media(max-width: 991px){
+				position: initial;
+				margin: 20px 0 30px;
+				.image_description p{
+					text-align: center;
+				}
+			}
+		}
+	} 
+}
+
+.box-border-banner{
+	.group-border-banner{
+		@media (min-width: 992px) {
+			@include rtl-padding(0,15px,0,0);
+		}
+		.border-banner{
+			padding: 44px 0;
+		}
+	}
+	.group-banner{
+		@media (min-width: 992px) {
+			@include rtl-padding(0,0,0,15px);
+		}
+		@media(max-width: 991px){
+			.banner{
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+//product-tabs
+.box-product-tabs{
+	margin-top: 70px;
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+}
+
+//service
+.box-service{
+	margin-top: 70px;
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+}
+
+.box-newsletter-testimonial{
+	margin-top: 100px;
+	@media(max-width: 991px){
+		margin-top: 50px;
+	}
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+}
+
+.box-newsletter-image{
+	margin-top: 100px;
+	@media(max-width: 991px){
+		margin-top: 50px;
+	}
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+}
+
+.box-blogs-banner{
+	margin-top: 100px;
+	@media(max-width: 991px){
+		margin-top: 50px;
+	}
+	@media(max-width: 479px){
+		margin-top: 30px;
+	}
+	.group-blogs{
+		@media(max-width: 991px){
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.layout-boxed-md{
+	.box-banner-text-fullwidth {
+		.banner-text{
+			.box-content-img{
+				.content-text{
+					width: 40%;	
+				}
+			}
+		} 
+	}
+	.box-border-banner{
+		.group-banner,.group-border-banner{
+			width: 50%;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+[/{shop_url}] 
+
+مرحبا {firstname} {lastname}، 
+
+كنت قد تلقيت رسالة جديدة بخصوص الطلب
+رقم {order_name}.
+
+العميل: {firstname} {lastname} ({email})
+
+{message} 		 
+
+{shop_name} [/{shop_url}] مدعوم من بريستاشوب(tm)
+[http://www.prestashop.com/] 
+

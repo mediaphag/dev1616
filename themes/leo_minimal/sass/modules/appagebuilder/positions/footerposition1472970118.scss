@@ -1,0 +1,63 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Footer 5 ***************
+
+#footer{
+	ul.list-group li{
+		@media (min-width: 480px) {
+			@include rtl-float-left();
+			width: 50%;
+		}
+	}
+	.logo{
+		margin-bottom: 35px;
+		@media (max-width: 767px) {
+			margin-bottom: 25px;
+		}
+	}
+	#social_block{
+		.block-2{
+			display: none;
+		}
+		ul li a{
+			&:before{
+				color: $theme-color-tertiary;
+			}
+			&:hover,&:active,&:focus{
+				&:before{
+					color: $theme-color-default;
+				}
+			}
+		}
+	} 
+}
+
+.box-top-footer{
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 50px;
+	padding-top: 70px;
+	@media (max-width: 991px) {
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+	@media (min-width: 992px) {
+		& > div{
+			&:first-child{
+				@include rtl-padding(0,15px,0,0);
+			}
+			&:last-child{
+				@include rtl-padding(0,0,0,15px);
+			}
+		}
+	}
+}
+
+.box-bottom-footer{
+	height: 70px;
+	@include display-flex();
+	@include align-items(center);
+	@include justify-content(center);
+}
+

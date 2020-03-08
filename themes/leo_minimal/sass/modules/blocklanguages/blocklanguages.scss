@@ -1,0 +1,28 @@
+@import "compass";
+@import "theme_variables";
+
+.language-block{
+	@include rtl-margin-right(25px);
+	@media (max-width: 479px) {
+		@include rtl-margin-right(15px);
+	}
+	.popup-title{
+		img{
+			margin-top: -3px;
+			@media (max-width: 479px) {
+				display: none;
+			}
+		}
+	}
+	.popup-content{
+		img{
+			margin-top: -3px;
+			@include rtl-margin-right(5px);
+		}
+		.selected span{
+			font-weight: bold;
+			font-size: 14px;
+			text-decoration: underline;
+		}
+	}
+}	

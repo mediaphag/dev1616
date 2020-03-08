@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>promuamarket</name>
+	<displayName><![CDATA[PromUA Market]]></displayName>
+	<version><![CDATA[1.7.8]]></version>
+	<description><![CDATA[Provides price list export to PromUA Market]]></description>
+	<author><![CDATA[mail@vlad.zp.ua]]></author>
+	<tab><![CDATA[smart_shopping]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete your details ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

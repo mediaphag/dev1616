@@ -1,0 +1,120 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        background: $white;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: $white;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+}
+
+/*
+* HEADER 
+*/
+ 
+#topbar  {
+    font-size: $topbar-font-size;
+    .container{
+        @include container-layout-variant($topbar-color, $topbar-bg);
+    }
+    a{
+        color: $theme-color-secondary;
+        &:hover{
+            color: $theme-color-default;
+        }
+    }
+}
+
+ 
+#header-main{
+   .container{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+   }
+}
+
+
+/* FOOTER */
+#footer{
+    @include clearfix();
+    .container{
+        @include container-layout-variant($footer-color, $footer-bg);   
+    } 
+    a{color: $footer-color;
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+    ul.list-group{
+        margin-bottom: 0;
+        @include clearfix();
+        @include rtl-padding(0,0,0,20px);
+        @media (max-width: 991px) {
+            @include rtl-padding(0,0,0,10px);
+        }
+        li{
+            @include rtl-padding(0,0,0,0);
+            margin-bottom: 20px;
+            &:last-child{
+                margin-bottom: 0; 
+            }
+            a{
+                font-size: 15px;
+                @include rtl-padding(0,0,0,0);
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    } 
+    .title_block{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        @media (max-width: 991px) {
+            margin-bottom: 25px;   
+        }
+        @media (max-width: 767px) {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        a{
+            color: $theme-color-tertiary;
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+    }
+}

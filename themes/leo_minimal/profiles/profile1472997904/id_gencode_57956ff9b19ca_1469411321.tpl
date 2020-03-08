@@ -1,0 +1,1 @@
+<a class="ap-btn-wishlist btn-wishlist" href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|addslashes}" title="{l s='My wishlist'}">                <i class="icon-heart2"></i>            </a>

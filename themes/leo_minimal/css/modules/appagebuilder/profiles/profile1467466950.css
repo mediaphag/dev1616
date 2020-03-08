@@ -1,0 +1,78 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************
+					Home 3 
+********************************************************************/
+#index #columns {
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+@media (max-width: 991px) {
+  #index #columns {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 479px) {
+  #index #columns {
+    padding-top: 30px;
+  }
+}
+
+.box-video {
+  margin-top: 100px;
+}
+@media (max-width: 991px) {
+  .box-video {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 479px) {
+  .box-video {
+    margin-top: 30px;
+  }
+}
+
+.box-two-banner {
+  margin-top: 40px;
+}
+@media (max-width: 479px) {
+  .box-two-banner {
+    margin-top: 0;
+  }
+  .box-two-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+.box-product-tabs {
+  margin-top: 70px;
+}
+@media (max-width: 479px) {
+  .box-product-tabs {
+    margin-top: 40px;
+  }
+}
+
+.box-testimonials {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+@media (max-width: 479px) {
+  .box-testimonials {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+}

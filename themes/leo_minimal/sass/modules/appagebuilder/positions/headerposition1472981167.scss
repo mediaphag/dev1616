@@ -1,0 +1,84 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Header 5 ***************
+.box-top-header{
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #f1f1f1;
+	@include display-flex();
+	@include align-items(center);
+	& > [class*="col-"]{
+		@include display-flex();
+		@include align-items(center);
+	}
+	.left-top-header {
+		@include justify-content(flex-start);
+	}
+	.right-top-header {
+		@include justify-content(flex-end);
+	}
+	margin: 0;
+	@media (min-width: 992px) {
+	}
+}
+
+.box-bottom-header{
+	@media (min-width: 992px) {
+		@include display-flex();
+		@include align-items(center);
+	}
+	@media (max-width: 991px) {
+		margin-bottom: 10px;
+	}
+	& > [class*="col-"]{
+		@include display-flex();
+		@include align-items(center);
+	}
+	.left-bottom-header {
+		@include justify-content(flex-start);
+		.logo{
+			padding: 30px 0;
+		}
+		@media (max-width: 991px) {
+			@include justify-content(center);
+		}
+	}
+	.center-bottom-header{
+		@include justify-content(center);
+		@media (max-width: 991px) {
+			height: 40px;
+			@include justify-content(flex-start);
+		}
+	}
+	.right-bottom-header {
+		@include justify-content(flex-end);
+		@media (max-width: 991px) {
+			height: 40px;
+		}
+	}
+}
+
+.header_user_info .links{
+	@media (min-width: 992px) {
+		@include display-flex();
+		li{
+			@include rtl-border-right(1px solid #f1f1f1);
+			@include rtl-margin(0,0,0,0);
+			@include rtl-padding(0,15px,0,15px);
+			line-height: 45px;
+			&:after{
+				display: none;
+			}
+			&:last-child{
+				@include rtl-margin(0,0,0,0);
+				@include rtl-border-right(none);
+				@include rtl-padding(0,0,0,15px);
+			}
+			a{
+				line-height: normal;
+				@include rtl-padding(0,0,0,0);
+			}
+		}
+	} 
+}

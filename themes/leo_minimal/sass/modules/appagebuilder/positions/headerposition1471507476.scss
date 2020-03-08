@@ -1,0 +1,66 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Header 2 ***************
+#topbar{
+	background: #f4f4f4;
+}
+.box-top-header{
+	@include display-flex();
+	@include align-items(center);
+	& > [class*="col-"]{
+		@include display-flex();
+		@include align-items(center);
+	}
+	.left-top-header {
+		@include justify-content(flex-start);
+	}
+	.right-top-header {
+		@include justify-content(flex-end);
+	}
+}
+
+.box-center-header{
+	@media (min-width: 992px) {
+		@include display-flex();
+		@include align-items(center);
+	}
+	@media (max-width: 991px) {
+		margin-bottom: 10px;
+	}
+	& > [class*="col-"]{
+		@include display-flex();
+		@include align-items(center);
+	}
+	.left-center-header {
+		@include justify-content(flex-start);
+		@media (max-width: 991px) {
+			@include justify-content(center);
+		}
+	}
+	.center-center-header{
+		@include justify-content(center);
+		.logo{
+			padding: 30px 0;
+		}
+	}
+	.right-center-header {
+		@include justify-content(flex-end);
+		@media (max-width: 991px) {
+			height: 40px;
+		}
+	}
+}
+
+.group-bottom-header{
+	@include display-flex();
+	@media (min-width: 992px) {
+		@include justify-content(center);
+		margin: 20px 0;
+	}
+}
+@media (max-width: 991px){
+	.navbar-header {
+		margin-top: -50px;
+	}
+}
