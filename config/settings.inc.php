@@ -2,7 +2,7 @@
 define('_DB_SERVER_', 'localhost');
 define('_DB_NAME_', 'dtdev1');
 define('_DB_USER_', 'dtdev1');
-define('_DB_PASSWD_', '3x5qDfYE');
+define('_DB_PASSWD_', 'not_for_all');
 define('_DB_PREFIX_', '16_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheFs');
